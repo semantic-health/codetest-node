@@ -8,7 +8,7 @@ A client has approached you with a unique problem. They need a REST API, but can
 2. Each blog post has a title, a body, and a hero image
 3. Each blog post is written by an author
 4. This is a public blog API, so there are no rules on who can submit a post
-5. The client does want the ability to edit and delete authors, but without losing any metadata
+5. The client wants the ability to edit and delete authors, but without losing any blog data
 6. The client also wants a search functionality that can either query by author, or blog in a variety of manners such as:
    a) id
    b) title
