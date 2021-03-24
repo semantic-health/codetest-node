@@ -1,0 +1,17 @@
+{
+  "name": "codetest-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "newman": "^5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "newman run tests/semantictest_node.postman_collection.json -r cli,json",
+    "prettier": "prettier --write 'src/**/*.{js,json}'"
+  }
+}
