@@ -16,10 +16,13 @@ A client has approached you with a unique problem. They need a REST API, but can
 
 ## Instructions
 
-1. Scaffold a basic app using Express (Node.js). Don't rely on any other libraries.
+_DO NOT FORK THIS REPO, CLONE IT AND REMOVE THE .git FOLDER_
+
+1. Scaffold a basic app using Express (Node.js) in `index.js`. Don't rely on any other libraries.
 2. Build out a REST API
 3. Build out a way to store the entities, using data structures
 4. Add Postman tests to hit all the requirements
+5. Zip up the entire folder and send it back
 
 ### Postman Instructions
 
